@@ -1,0 +1,19 @@
+# This is generated. Don't modify.
+---
+name: talosctl
+description: Talos is a modern OS for Kubernetes.
+source:
+  Github:
+    owner: talos-systems
+    repo: talos
+targets:
+  - LinuxAmd64:
+      artifact_templates:
+        - "{version}/talosctl-linux-amd64"
+  - LinuxArm64:
+      artifact_templates:
+        - "{version}/talosctl-linux-arm64"
+  - MacOS:
+      artifact_templates:
+        - "{version}/talosctl-darwin-amd64"
+detail: ~
